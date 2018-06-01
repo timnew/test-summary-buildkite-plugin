@@ -21,6 +21,9 @@ steps:
   - label: ":arrow_up: artifacts"
     command: buildkite-agent artifact upload spec/sample_artifacts/**/*
 
+  - label: test
+    command: cat test.md | buildkite-agent annotate --style warning --context whatevs
+
   - wait: ~
     continue_on_failure: true
 
