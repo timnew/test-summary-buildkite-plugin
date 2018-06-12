@@ -53,8 +53,7 @@ module TestSummaryBuildkitePlugin
       end
 
       def details(summary, contents)
-        # The empty paragraph puts padding between the details and the following element
-        "<details><summary>#{summary}</summary>\n#{contents}\n</details><p></p>"
+        "<details>\n<summary>#{summary}</summary>\n#{contents.gsub(%r{^</details>}, '  </details>')}\n</details>"
       end
 
       def type

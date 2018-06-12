@@ -22,7 +22,7 @@ steps:
     command: buildkite-agent artifact upload spec/sample_artifacts/**/*
 
   - label: test
-    command: cat test.md | buildkite-agent annotate --style warning --context whatevs
+    command: for i in $(ls test*.md); do cat $$i | buildkite-agent annotate --style warning --context $$i; done
 
   - wait: ~
     continue_on_failure: true
