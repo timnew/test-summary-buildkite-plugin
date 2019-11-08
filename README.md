@@ -1,3 +1,7 @@
+# This is a custom FORK of bugcrowd/test-summary-buildkite-plugin
+
+This fork enhanced some Android support over the original plugin, so it can support AndroidLint, KtLint, and Junit output better
+
 # Test Summary Buildkite Plugin
 
 A [Buildkite plugin](https://buildkite.com/docs/agent/v3/plugins) that adds a single annotation
