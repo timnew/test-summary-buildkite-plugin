@@ -1,6 +1,5 @@
-# This is a custom FORK of bugcrowd/test-summary-buildkite-plugin
-
-This fork enhanced some Android support over the original plugin, so it can support AndroidLint, KtLint, and Junit output better
+# Why this custom FORK
+This is a custom FORK of bugcrowd/test-summary-buildkite-plugin, which enhanced the support to Android over the original plugin, so it can support AndroidLint, KtLint, and Junit output better
 
 # Test Summary Buildkite Plugin
 
