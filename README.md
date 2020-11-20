@@ -1,3 +1,6 @@
+# [DISCONTINUED]
+User original plugin, which now supports `Checkstyle` 
+
 # Why this custom FORK
 This is a custom FORK of bugcrowd/test-summary-buildkite-plugin, which enhanced the support to Android over the original plugin, so it can support AndroidLint, KtLint, and Junit output better
 
